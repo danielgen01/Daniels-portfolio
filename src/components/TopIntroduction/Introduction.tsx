@@ -31,7 +31,7 @@ const Introduction = () => {
         </button>
       </div>
       <div className="button-react-testing-certificate flex justify-center">
-        <button className="underline font-bold underline-offset-2 flex items-center gap-2">
+        <button className="underline font-bold underline-offset-2 flex items-center gap-2 whitespace-nowrap">
           React Testing Library Certificate
           <BsDownload className="text-black font-bold" />
         </button>
