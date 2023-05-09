@@ -4,7 +4,7 @@ import portrait from "/Assets/BewerbungsbildCartoon.webp"
 
 const Introduction = () => {
   return (
-    <section className="Introdocution py-10 px-20 flex flex-col gap-4">
+    <section className="Introdocution py-10 px-20 flex flex-col gap-4 ">
       <div className="headline flex items-center">
         <h1 className="text-4xl font-bold whitespace-nowrap">Hi, I'm Daniel</h1>
         <span role="img" aria-label="waving hand" className="text-4xl">
@@ -17,8 +17,9 @@ const Introduction = () => {
         <h2 className="font-bold text-lg">Frontend developer</h2>
       </div>
       <p className="font-bold text-left">
-        My name is Daniel Gendik and I'm a 22 year old (Web) Frontend developer
-        from Germany. Scroll down to check out my projects and social media.
+        Hello, I'm Daniel Gendik, a passionate 22-year-old Frontend Web
+        Developer hailing from Germany. Scroll down to explore my projects and
+        connect with me on social media.
       </p>
       <div className="button download-cv flex justify-center">
         <button
