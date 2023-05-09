@@ -1,4 +1,5 @@
 import './App.css'
+import Aboutme from './components/Aboutme/Aboutme'
 import Navbar from './components/Navbar/Navbar'
 import ProjectBanner from './components/Projects/ProjectBanner'
 import TechStack from './components/TechStack/TechStack'
@@ -11,6 +12,7 @@ function App() {
  <Introduction />
  <TechStack />
  <ProjectBanner />
+ <Aboutme />
  </>
   )
 }

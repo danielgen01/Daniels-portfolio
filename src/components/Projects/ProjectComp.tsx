@@ -16,7 +16,7 @@ export const Project: React.FC<ProjectProps> = ({
 }) => {
   return (
     <div
-      className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5
+      className="grid-layout grid grid-cols-1 2xl:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5
     ring-4 ring-white 
     "
     >
@@ -46,10 +46,10 @@ export const Project: React.FC<ProjectProps> = ({
           </a>
         </div>
       </div>
-      <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-xl text-center mt-2">{title}</h1>
+      <div className="project-description text-white flex flex-col items-center gap-5 justify-around">
+        <h1 className="font-semibold text-2xl text-center mt-2">{title}</h1>
 
-        <h2 className="lg:text-2xl text-md lg:mx-20">{description}</h2>
+        <h2 className="lg:text-2xl text-sm lg:mx-20">{description}</h2>
       </div>
     </div>
   )
