@@ -2,12 +2,18 @@ import { SiReact, SiTypescript, SiRedux, SiTailwindcss } from "react-icons/si"
 import { BsArrowUpRight, BsGithub } from "react-icons/bs"
 type ProjectProps = {
   image: string
-  title:string
-  description:string
-  liveViewLink:string
-  githubLink:string
+  title: string
+  description: string
+  liveViewLink: string
+  githubLink: string
 }
-export const Project: React.FC<ProjectProps> = ({ image, title,description,githubLink,liveViewLink }) => {
+export const Project: React.FC<ProjectProps> = ({
+  image,
+  title,
+  description,
+  githubLink,
+  liveViewLink,
+}) => {
   return (
     <div
       className="grid-layout grid grid-cols-1 lg:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5
@@ -33,21 +39,17 @@ export const Project: React.FC<ProjectProps> = ({ image, title,description,githu
           </a>
           <a
             href={githubLink}
-            className="bg-white px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 w-full"
+            className="bg-white px-2 py-2 rounded-md font-medium hover:opacity-75 flex items-center justify-center gap-2 w-full "
             target={"_blank"}
           >
-            <BsGithub className="h-[20px] w-fit text-[#171515] max-w-fit" />
+            <BsGithub className="h-[20px] w-fit text-[#171515] max-w-fit  github" />
           </a>
         </div>
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-between">
-        <h1 className="font-semibold text-xl text-center mt-2">
-        {title}
-        </h1>
+        <h1 className="font-semibold text-xl text-center mt-2">{title}</h1>
 
-        <h2 className="lg:text-2xl text-md lg:mx-20">
-         {description}
-        </h2>
+        <h2 className="lg:text-2xl text-md lg:mx-20">{description}</h2>
       </div>
     </div>
   )
