@@ -1,4 +1,4 @@
-import logoIcon from "../../../../public/Assets/Logo.png"
+import logoIcon from "/Assets/Logo.png"
 const Logo = () => {
   return (
     <>
