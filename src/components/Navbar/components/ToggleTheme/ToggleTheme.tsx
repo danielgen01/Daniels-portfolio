@@ -28,13 +28,13 @@ const ToggleTheme = () => {
           <img
             src={sun}
             alt="Toggle theme"
-            className="bg-gray-200 dark:bg-dark-gray px-2 py-2 rounded-full"
+            className="bg-gray-200  px-2 py-2 rounded-full"
           />
         ) : (
           <img
             src={moon}
             alt="Toggle theme"
-            className="bg-gray-200 dark:bg-dark-gray px-2 py-2 rounded-full"
+            className="bg-gray-200  px-2 py-2 rounded-full"
           />
         )}
       </span>
