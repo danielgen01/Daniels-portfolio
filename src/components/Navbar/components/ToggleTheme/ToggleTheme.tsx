@@ -28,7 +28,7 @@ const ToggleTheme = () => {
           <img
             src={sun}
             alt="Toggle theme"
-            className="bg-gray-200  px-2 py-2 rounded-full"
+            className="bg-gray-200  px-2 py-2 rounded-full dark:bg-slate-800"
           />
         ) : (
           <img

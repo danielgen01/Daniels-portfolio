@@ -17,7 +17,7 @@ const Introduction = () => {
 
         <div className="frontend-dev flex items-center gap-5">
           <div className="border-b-4 border-black w-1/4 "></div>
-          <h2 className="font-bold text-lg">Frontend developer</h2>
+          <h2 className="font-bold text-lg whitespace-nowrap">Frontend developer</h2>
         </div>
         <p className="font-bold text-left">
           Hello, I'm Daniel Gendik, a passionate 22-year-old Frontend Web
