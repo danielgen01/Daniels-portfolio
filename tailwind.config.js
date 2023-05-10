@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class', // oder 'media', wenn Sie möchten, dass es auf den OS-Einstellungen basiert
   theme: {
     extend: {
       colors:{
