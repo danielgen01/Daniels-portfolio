@@ -3,8 +3,17 @@ import Logo from "./components/Logo/Logo"
 import MenuIcon from "./components/MenuIcon/MenuIcon"
 import ToggleTheme from "./components/ToggleTheme/ToggleTheme"
 import Navlinks from "./components/NavLinks/Navlinks"
+import TouchMenu from "./components/TouchMenu/TouchMenu"
+import {useState} from "react"
 
 const Navbar = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
     <>
       <nav
@@ -22,9 +31,10 @@ const Navbar = () => {
           <div className="sidebuttons flex items-center gap-5">
             <ToggleTheme />
             <DownloadCV />
-            <MenuIcon />
+            <MenuIcon isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
           </div>
         </div>
+        <TouchMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
       </nav>
     </>
   )

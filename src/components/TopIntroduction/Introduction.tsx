@@ -4,6 +4,7 @@ import portrait from "/Assets/BewerbungsbildCartoon.webp"
 
 const Introduction = () => {
   return (
+    <>
     <section className=" py-10 px-20 grid grid-cols-1 gap-4 lg:grid-cols-2 dark:bg-dark-bg min-h-[500px] lg:items-center" id="#introduction">
       <section className="flex flex-col gap-5 f">
         <div className="headline flex items-center">
@@ -52,7 +53,7 @@ const Introduction = () => {
         <img src={portrait} alt="Portrait" className=" " />
       </section>
     </section>
-  )
+    </> )
 }
 
 export default Introduction
