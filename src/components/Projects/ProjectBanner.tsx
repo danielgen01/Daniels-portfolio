@@ -7,7 +7,7 @@ import starbuckscreen from "/Assets/projects/starbucks_screen_2.webp"
 
 const ProjectBanner = () => {
   return (
-    <section className="min-h-[500px] bg-medium-blue flex flex-col gap-4">
+    <section className="min-h-[500px] bg-[#03315A] flex flex-col gap-4 ">
       <div className="project-banner-content py-10 px-5 ">
         <div className="headline flex">
           <h1 className="text-white text-4xl font-bold">Projects</h1>
