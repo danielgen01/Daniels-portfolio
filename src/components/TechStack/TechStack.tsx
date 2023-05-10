@@ -20,7 +20,7 @@ const TechStack = () => {
               custom designs. I use Git and GitHub for version control and team
               collaboration, and leverage ChatGPT to enhance work efficiency
               through automation. Committed to innovation, I constantly refine
-              my skills to meet client demands.
+              my skills to meet the state of art.
             </p>
           </div>
 
