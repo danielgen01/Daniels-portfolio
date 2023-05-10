@@ -6,7 +6,7 @@ import ToggleTheme from "./components/ToggleTheme/ToggleTheme"
 const Navbar = () => {
   return (
     <>
-      <nav className="h-24 shadow-md w-screen bg-white dark:bg-black
+      <nav className="h-24 shadow-md w-screen bg-white dark:bg-black px-4
       
        ">
         <div className="nav-content px-5 py-5 flex items-center gap-2 justify-between">
