@@ -21,7 +21,7 @@ export const Project: React.FC<ProjectProps> = ({
     "
     >
       <div className="grid-item-image-container flex flex-col gap-10 order-2 lg:order-1 justify-between">
-        <img src={image} alt="E-Commerce-Screenshot" />
+        <img src={image} alt="E-Commerce-Screenshot" className="rounded-xl ring-sky-500 ring-4"/>
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />

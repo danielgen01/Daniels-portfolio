@@ -8,11 +8,11 @@ const TechStack = () => {
         <img src={waves} alt="waves_icon" className=" ml-auto" />
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="grid-1 flex flex-col gap-5 lg:order-2 lg:items-start">
-            <h1 className="text-4xl font-bold  dark:text-white">
+            <h1 className="text-4xl font-bold  dark:text-white lg:text-5xl">
               Tech Stack + <br /> technologies
             </h1>
             {/* <div className="border-b-4 border-black  mt-20 ml-5 w-3/4"></div> */}
-            <p className="font-semibold text-left dark:text-white lg:text-xl">
+            <p className="font-semibold text-left dark:text-white lg:text-2xl">
               As a dedicated web developer, I'm skilled in HTML5, CSS3,
               JavaScript, and TypeScript, enabling me to build intuitive,
               robust, and responsive web applications. I'm proficient in React

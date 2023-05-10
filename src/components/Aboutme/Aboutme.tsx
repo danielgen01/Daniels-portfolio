@@ -8,11 +8,11 @@ const Aboutme = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="firstt-grid-item flex justify-center items-start flex-col gap-5">
             <div className="headline flex">
-              <h1 className="text-black text-4xl font-bold dark:text-white  whitespace-nowrap">
+              <h1 className="text-black text-4xl font-bold dark:text-white  whitespace-nowrap lg:text-5xl">
                 About me
               </h1>
             </div>
-            <p className="text-black mt-5 font-semibold dark:text-white">
+            <p className="text-black mt-5 font-semibold dark:text-white lg:text-2xl">
               Hello, my name is Daniel Adrian Gendik and I'm a ambitious self
               taught frontend web developer, who dreams about code. As I wrote
               my first few lines of simple HTML , I instantly knew that I'll one
@@ -26,11 +26,11 @@ const Aboutme = () => {
             <div className="buttons w-full flex justify-center gap-10 lg:justify-start">
               <button
                 className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md px-5 py-2 text-white
-            flex items-center gap-2 font-semibold hover:opacity-70"
+            flex items-center gap-2 font-semibold hover:opacity-70 lg:text-xl"
               >
                 Contact me <img src={sendicon} alt="" />
               </button>
-              <button className="font-bold underline-offset-1 underline dark:text-white">
+              <button className="font-bold underline-offset-1 underline dark:text-white lg:text-xl">
                 Download my CV
               </button>
             </div>
