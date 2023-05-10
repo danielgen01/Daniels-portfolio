@@ -3,7 +3,7 @@ import waves from "/Assets/Vektor_waves.png"
 
 const TechStack = () => {
   return (
-    <section className=" bg-bright-gray w-full overflow-x-hidden dark:bg-[#26262C]">
+    <section className=" bg-bright-gray w-full overflow-x-hidden dark:bg-[#26262C] lg:h-[700px]">
       <div className="techstack-content py-5  px-5 flex flex-col gap-4">
         <img src={waves} alt="waves_icon" className=" ml-auto" />
         <div className="grid grid-cols-1 lg:grid-cols-2">
@@ -12,7 +12,7 @@ const TechStack = () => {
               Tech Stack + <br /> technologies
             </h1>
             {/* <div className="border-b-4 border-black  mt-20 ml-5 w-3/4"></div> */}
-            <p className="font-semibold text-left dark:text-white">
+            <p className="font-semibold text-left dark:text-white lg:text-xl">
               As a dedicated web developer, I'm skilled in HTML5, CSS3,
               JavaScript, and TypeScript, enabling me to build intuitive,
               robust, and responsive web applications. I'm proficient in React
@@ -28,7 +28,7 @@ const TechStack = () => {
             <img
               src={techstackImage}
               alt="Daniel's Techstack"
-              className="w-full"
+              className="h-fit w-fit"
             />
           </div>
         </div>

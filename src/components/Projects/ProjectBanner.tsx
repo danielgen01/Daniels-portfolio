@@ -11,7 +11,7 @@ const ProjectBanner = () => {
       <div className="project-banner-content py-10 px-5 ">
         <div className="headline flex">
           <h1 className="text-white text-4xl font-bold">Projects</h1>
-          <div className="border-b-4 border-white mt-10 ml-5 w-1/4 "></div>
+          <div className="border-b-4 border-white mt-10 ml-5 w-1/4 lg:w-1/12"></div>
         </div>
 
         <p className="text-white mt-5 font-semibold">

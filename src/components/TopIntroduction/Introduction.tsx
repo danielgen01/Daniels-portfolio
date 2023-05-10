@@ -1,11 +1,9 @@
 import { BsDownload } from "react-icons/bs"
-import portaitbg from "/Assets/portrait-bg.png"
-import portrait from "/Assets/BewerbungsbildCartoon.webp"
 
 const Introduction = () => {
   return (
     <section className="Introdocution py-10 px-20 grid grid-cols-1 gap-4 lg:grid-cols-2 dark:bg-dark-bg">
-      <section className="first-grid flex flex-col gap-5">
+      <div className="flex flex-col gap-5">
         <div className="headline flex items-center">
           <h1 className="text-4xl font-bold whitespace-nowrap dark:text-white">
             Hi, I'm Daniel
@@ -16,7 +14,7 @@ const Introduction = () => {
         </div>
 
         <div className="frontend-dev flex items-center gap-5">
-          <div className="border-b-4 border-black w-1/4  dark:border-white"></div>
+          <div className="border-b-4 border-black w-1/4  dark:border-white lg:w-1/12"></div>
           <h2 className="font-bold text-lg whitespace-nowrap dark:text-white">
             Frontend developer
           </h2>
@@ -40,17 +38,7 @@ const Introduction = () => {
             <BsDownload className="text-black font-bold" />
           </button>
         </div>
-      </section>
-
-      <section className="second-grid"></section>
-
-      {/* <figure
-        className="portrait relative  flex justify-center items-start"
-       
-      >
-        <img src={portaitbg} alt="Portrait" className="" />
-        <img src={portrait} alt="Portrait" className="absolute z-10 -pt-56" />
-      </figure> */}
+      </div>
     </section>
   )
 }
