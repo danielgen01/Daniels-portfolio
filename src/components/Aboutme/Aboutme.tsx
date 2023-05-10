@@ -13,14 +13,15 @@ const Aboutme = () => {
               </h1>
             </div>
             <p className="text-black mt-5 font-semibold dark:text-white lg:text-2xl">
-              Hello, my name is Daniel Adrian Gendik and I'm a ambitious self
-              taught frontend web developer, who dreams about code. As I wrote
-              my first few lines of simple HTML , I instantly knew that I'll one
-              day become a web dev. I love to write code and learn new things
-              about developing. Admittedly I'm not the best designer, but my
-              passion is to develop web applications and solve code problems -
-              not to design it. I'll better leave this part to the designers and
-              develop the website using their design.
+              Hello, my name is Daniel Adrian Gendik, an ambitious, self-taught
+              frontend web developer with a passion for code. From the moment I
+              wrote my first lines of HTML, I knew web development was my
+              calling. I thrive on learning new aspects of development, writing
+              code, and bringing web applications to life. While my skills lean
+              more towards development than design, I respect and appreciate the
+              importance of design in the process. I prefer to focus on what I
+              do best: translating designs into functional, user-friendly
+              websites and solving complex coding problems.
             </p>
 
             <div className="buttons w-full flex justify-center gap-10 lg:justify-start">
