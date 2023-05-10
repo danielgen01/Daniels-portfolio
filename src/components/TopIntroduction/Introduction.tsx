@@ -50,7 +50,7 @@ const Introduction = () => {
         className="portrait-div flex items-start justify-center pt-0 bg-no-repeat bg-center "
         // style={{ backgroundImage: `url(${portraitbackgroud})` }}
       >
-        <img src={portrait} alt="Portrait" className=" " />
+        <img src={portrait} alt="Portrait" className="bg-dark-gray/10 dark:bg-dark-gray/20 rounded-lg" />
       </section>
     </section>
     </> )
