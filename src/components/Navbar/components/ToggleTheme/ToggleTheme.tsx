@@ -4,7 +4,7 @@ import { Switch } from "@headlessui/react"
 import { useToggleTheme } from "./useToggleTheme"
 
 const ToggleTheme = () => {
-  const { isDarkMode, setIsDarkMode, toggleDarkMode } = useToggleTheme()
+  const { isDarkMode, toggleDarkMode } = useToggleTheme()
 
   return (
     <Switch
