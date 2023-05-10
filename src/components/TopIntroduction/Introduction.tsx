@@ -26,7 +26,7 @@ const Introduction = () => {
           Developer hailing from Germany. Scroll down to explore my projects and
           connect with me on social media.
         </p>
-        <div className="buttons flex flex-col lg:flex-row gap-5 w-3/4">
+        <div className="buttons flex flex-col lg:flex-row gap-5 w-full lg:w-3/4">
           <button
             className="bg-gradient-to-r from-sky-500 to-indigo-500 font-bold text-white 
       rounded-lg px-7 py-3 flex items-center gap-5 hover:opacity-80 whitespace-nowrap"
