@@ -53,7 +53,7 @@ export const Project: React.FC<ProjectProps> = ({
         </div>
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-around">
-        <h1 className="font-semibold text-2xl text-center mt-2">{title}</h1>
+        <h1 className="font-semibold text-2xl text-center mt-2 lg:text-3xl">{title}</h1>
 
         <p className="lg:text-2xl text-sm">{description}</p>
       </div>
