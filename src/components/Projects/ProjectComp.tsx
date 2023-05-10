@@ -18,7 +18,7 @@ export const Project: React.FC<ProjectProps> = ({
 }) => {
   return (
     <div
-      className="grid-layout grid grid-cols-1 2xl:grid-cols-2 mx-10 mt-10 bg-gray-500/10 rounded-md p-5
+      className="grid-layout grid grid-cols-1 2xl:grid-cols-2 mx-10 mt-10  rounded-md p-5
     ring-4 ring-white 
     "
     >
@@ -26,7 +26,7 @@ export const Project: React.FC<ProjectProps> = ({
         <img
           src={image}
           alt="E-Commerce-Screenshot"
-          className="rounded-xl ring-sky-500 ring-4"
+          className="rounded-xl "
         />
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl justify-center">
           <SiReact className="text-[#61DBFB]" />
@@ -55,7 +55,7 @@ export const Project: React.FC<ProjectProps> = ({
       <div className="project-description text-white flex flex-col items-center gap-5 justify-around">
         <h1 className="font-semibold text-2xl text-center mt-2 lg:text-3xl">{title}</h1>
 
-        <p className="lg:text-2xl text-sm">{description}</p>
+        <p className="lg:text-2xl text-sm px-2">{description}</p>
       </div>
     </div>
   )
