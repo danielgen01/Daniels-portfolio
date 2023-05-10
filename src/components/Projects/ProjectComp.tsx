@@ -6,6 +6,7 @@ type ProjectProps = {
   description: string
   liveViewLink: string
   githubLink: string
+  reduxUsed: boolean
 }
 export const Project: React.FC<ProjectProps> = ({
   image,
@@ -13,6 +14,7 @@ export const Project: React.FC<ProjectProps> = ({
   description,
   githubLink,
   liveViewLink,
+  reduxUsed,
 }) => {
   return (
     <div
@@ -21,11 +23,15 @@ export const Project: React.FC<ProjectProps> = ({
     "
     >
       <div className="grid-item-image-container flex flex-col gap-10 order-2 lg:order-1 justify-between">
-        <img src={image} alt="E-Commerce-Screenshot" className="rounded-xl ring-sky-500 ring-4"/>
+        <img
+          src={image}
+          alt="E-Commerce-Screenshot"
+          className="rounded-xl ring-sky-500 ring-4"
+        />
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />
-          <SiRedux className="text-purple-700" />
+          {reduxUsed && <SiRedux className="text-purple-700" />}
           <SiTailwindcss className="text-sky-500" />
         </div>
         <div className="buttons grid grid-cols-1 lg:grid-cols-2 gap-5">
