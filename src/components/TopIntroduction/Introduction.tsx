@@ -1,6 +1,6 @@
 import { BsDownload } from "react-icons/bs"
 import portrait from "/Assets/BewerbungsbildCartoon.webp"
-import portraitbackgroud from "/Assets/portrait-bg.png"
+// import portraitbackgroud from "/Assets/portrait-bg.png"
 
 const Introduction = () => {
   return (
@@ -26,7 +26,7 @@ const Introduction = () => {
           Developer hailing from Germany. Scroll down to explore my projects and
           connect with me on social media.
         </p>
-        <div className="buttons flex flex-col lg:flex-row gap-5 w-full lg:w-3/4">
+        <div className="buttons flex flex-col lg:flex-row gap-5 w-full lg:w-3/4 items-center">
           <a href="/JS_certi.pdf" download>
             <button
               className="bg-gradient-to-r from-sky-500 to-indigo-500 font-bold text-white 

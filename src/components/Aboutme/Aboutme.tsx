@@ -24,7 +24,7 @@ const Aboutme = () => {
               websites and solving complex coding problems.
             </p>
 
-            <div className="buttons w-full flex justify-center gap-10 lg:justify-start">
+            <div className="buttons w-full flex justify-center gap-10 lg:justify-start items-center">
               <a href="mailto:gendik38@gmail.com">
                 <button
                   className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md px-5 py-2 text-white
