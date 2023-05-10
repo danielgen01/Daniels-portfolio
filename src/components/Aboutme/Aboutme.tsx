@@ -24,15 +24,19 @@ const Aboutme = () => {
             </p>
 
             <div className="buttons w-full flex justify-center gap-10 lg:justify-start">
-              <button
-                className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md px-5 py-2 text-white
+              <a href="mailto:gendik38@gmail.com">
+                <button
+                  className="bg-gradient-to-r from-sky-500 to-indigo-500 rounded-md px-5 py-2 text-white
             flex items-center gap-2 font-semibold hover:opacity-70 lg:text-xl"
-              >
-                Contact me <img src={sendicon} alt="" />
-              </button>
-              <button className="font-bold underline-offset-1 underline dark:text-white lg:text-xl">
-                Download my CV
-              </button>
+                >
+                  Contact me <img src={sendicon} alt="" />
+                </button>
+              </a>
+              <a href="/Lebenslauf Daniel Adrian Gendik.pdf" download>
+                <button className="font-bold underline-offset-1 underline dark:text-white lg:text-xl">
+                  Download my CV
+                </button>
+              </a>
             </div>
           </div>
 
