@@ -11,8 +11,8 @@ const EndCard = () => {
             <h1 className="text-white font-bold text-center text-4xl lg:text-left">
               Let's build something together
             </h1>
-            <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-xl text-white font-semibold flex items-center gap-2 ">
-              Schedula a free call
+            <button className="bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 rounded-xl text-white font-semibold flex items-center gap-2 cursor-not-allowed">
+              Schedule a free call
               <img src={calendarcheck} alt="calendar" />
             </button>
           </div>
