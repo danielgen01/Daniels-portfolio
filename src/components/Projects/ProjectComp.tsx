@@ -28,7 +28,7 @@ export const Project: React.FC<ProjectProps> = ({
           alt="E-Commerce-Screenshot"
           className="rounded-xl ring-sky-500 ring-4"
         />
-        <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
+        <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl justify-center">
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />
           {reduxUsed && <SiRedux className="text-purple-700" />}
