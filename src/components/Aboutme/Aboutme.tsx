@@ -3,7 +3,7 @@ import sendicon from "/Assets/send-01.png"
 
 const Aboutme = () => {
   return (
-    <section className="min-h-[500px] bg-white justify-center items-center dark:bg-[#26262C]">
+    <section className="min-h-[500px] bg-white justify-center items-center dark:bg-[#26262C]"id="about">
       <div className="project-banner-content py-10 px-10 flex flex-col gap-4">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="firstt-grid-item flex justify-center items-start flex-col gap-5">

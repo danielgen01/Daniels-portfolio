@@ -4,7 +4,7 @@ import portraitbackgroud from "/Assets/portrait-bg.png"
 
 const Introduction = () => {
   return (
-    <section className="Introdocution py-10 px-20 grid grid-cols-1 gap-4 lg:grid-cols-2 dark:bg-dark-bg min-h-[500px] lg:items-center">
+    <section className=" py-10 px-20 grid grid-cols-1 gap-4 lg:grid-cols-2 dark:bg-dark-bg min-h-[500px] lg:items-center" id="#introduction">
       <section className="flex flex-col gap-5 f">
         <div className="headline flex items-center">
           <h1 className="text-4xl font-bold whitespace-nowrap dark:text-white lg:text-7xl">

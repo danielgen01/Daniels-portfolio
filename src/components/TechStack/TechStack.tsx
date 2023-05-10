@@ -3,7 +3,7 @@ import waves from "/Assets/Vektor_waves.png"
 
 const TechStack = () => {
   return (
-    <section className=" bg-bright-gray w-full overflow-x-hidden dark:bg-[#26262C] lg:h-[700px]">
+    <section className=" bg-bright-gray w-full overflow-x-hidden dark:bg-[#26262C] lg:h-[700px]"id="techstack">
       <div className="techstack-content py-5  px-5 flex flex-col gap-4">
         <img src={waves} alt="waves_icon" className=" ml-auto" />
         <div className="grid grid-cols-1 lg:grid-cols-2">
