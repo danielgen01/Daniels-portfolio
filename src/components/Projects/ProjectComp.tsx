@@ -20,7 +20,7 @@ export const Project: React.FC<ProjectProps> = ({
     ring-4 ring-white 
     "
     >
-      <div className="grid-item-image-container flex flex-col gap-10 order-2 lg:order-1">
+      <div className="grid-item-image-container flex flex-col gap-10 order-2 lg:order-1 justify-between">
         <img src={image} alt="E-Commerce-Screenshot" />
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl">
           <SiReact className="text-[#61DBFB]" />
@@ -49,7 +49,7 @@ export const Project: React.FC<ProjectProps> = ({
       <div className="project-description text-white flex flex-col items-center gap-5 justify-around">
         <h1 className="font-semibold text-2xl text-center mt-2">{title}</h1>
 
-        <h2 className="lg:text-2xl text-sm lg:mx-20">{description}</h2>
+        <p className="lg:text-2xl text-sm">{description}</p>
       </div>
     </div>
   )
