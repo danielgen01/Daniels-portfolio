@@ -10,7 +10,7 @@ const Introduction = () => {
           <h1 className="text-4xl font-bold whitespace-nowrap dark:text-white lg:text-7xl">
             Hi, I'm Daniel
           </h1>
-          <span role="img" aria-label="waving hand" className="text-4xl">
+          <span role="img" aria-label="waving hand" className="text-4xl lg:text-5xl">
             👋
           </span>
         </div>
