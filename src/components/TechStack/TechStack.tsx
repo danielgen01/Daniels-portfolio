@@ -3,8 +3,11 @@ import waves from "/Assets/Vektor_waves.png"
 
 const TechStack = () => {
   return (
-    <section className=" bg-bright-gray w-full overflow-x-hidden dark:bg-[#26262C] lg:h-[700px]"id="techstack">
-      <div className="techstack-content py-5  px-5 flex flex-col gap-4">
+    <section
+      className=" bg-bright-gray w-full overflow-x-hidden dark:bg-[#26262C] lg:max-h-[700px]"
+      id="techstack"
+    >
+      <div className="techstack-content py-5  px-5 flex flex-col gap-4 ">
         <img src={waves} alt="waves_icon" className=" ml-auto" />
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="grid-1 flex flex-col gap-5 lg:order-2 lg:items-start">
@@ -24,12 +27,12 @@ const TechStack = () => {
             </p>
           </div>
 
-          <div className="image grid-2">
+          <div className="image grid-2 lg:flex lg:justify-center">
             <img
               src={techstackImage}
               alt="Daniel's Techstack"
-              className="object-cover h-full w-full"
-              />
+              className="  lg:h-[500px]"
+            />
           </div>
         </div>
       </div>
