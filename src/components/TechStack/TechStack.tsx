@@ -28,7 +28,7 @@ const TechStack = () => {
             <img
               src={techstackImage}
               alt="Daniel's Techstack"
-              className="object-cover h-fit w-fit" 
+              className="object-cover h-full w-full"
               />
           </div>
         </div>
