@@ -8,14 +8,14 @@ import Introduction from './components/TopIntroduction/Introduction'
 
 function App() {
  return (
- <>
+ <div className='overflow-x-hidden'>
  <Navbar />
  <Introduction />
  <TechStack />
  <ProjectBanner />
  <Aboutme />
  <EndCard />
- </>
+ </div>
   )
 }
 
