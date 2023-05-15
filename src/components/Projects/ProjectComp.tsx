@@ -57,13 +57,13 @@ export const Project: React.FC<ProjectProps> = ({
           </a>
         </div>
       </div>
-      <div className="project-description text-white flex flex-col items-center gap-5 justify-around">
+      <div className="project-description text-white flex flex-col items-center gap-8 justify-around">
         <h1 className="font-semibold text-2xl text-center mt-2 lg:text-3xl">
           {title}
         </h1>
 
         <button
-          className="chevron flex items-center lg:hidden"
+          className="chevron flex items-center lg:hidden mb-4"
           onClick={toggleDescription}
         >
           <BiChevronDown
