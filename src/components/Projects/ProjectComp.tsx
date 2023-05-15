@@ -1,5 +1,8 @@
 import { SiReact, SiTypescript, SiRedux, SiTailwindcss } from "react-icons/si"
 import { BsArrowUpRight, BsGithub } from "react-icons/bs"
+import { BiChevronDown } from "react-icons/bi"
+import { useState } from "react"
+
 type ProjectProps = {
   image: string
   title: string
@@ -16,6 +19,12 @@ export const Project: React.FC<ProjectProps> = ({
   liveViewLink,
   reduxUsed,
 }) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleDescription = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <div
       className="grid-layout grid grid-cols-1 2xl:grid-cols-2 mx-10 mt-10  rounded-md p-5
@@ -23,11 +32,7 @@ export const Project: React.FC<ProjectProps> = ({
     "
     >
       <div className="grid-item-image-container flex flex-col gap-10 order-2 lg:order-1 justify-between">
-        <img
-          src={image}
-          alt="E-Commerce-Screenshot"
-          className="rounded-xl "
-        />
+        <img src={image} alt="E-Commerce-Screenshot" className="rounded-xl " />
         <div className="used-technologies-list flex flex-row gap-10 text-4xl lg:text-6xl justify-center">
           <SiReact className="text-[#61DBFB]" />
           <SiTypescript className=" text-[#007acc]" />
@@ -53,9 +58,27 @@ export const Project: React.FC<ProjectProps> = ({
         </div>
       </div>
       <div className="project-description text-white flex flex-col items-center gap-5 justify-around">
-        <h1 className="font-semibold text-2xl text-center mt-2 lg:text-3xl">{title}</h1>
+        <h1 className="font-semibold text-2xl text-center mt-2 lg:text-3xl">
+          {title}
+        </h1>
 
-        <p className="lg:text-2xl text-sm px-2">{description}</p>
+        <button
+          className="chevron flex items-center lg:hidden"
+          onClick={toggleDescription}
+        >
+          <BiChevronDown
+            className={`text-xl ${isOpen ? "rotate-180" : ""} duration-150`}
+          />
+          <p className="font-bold">Description</p>
+        </button>
+
+        <p
+          className={`lg:text-2xl text-sm px-2 ${
+            isOpen ? "block" : "hidden"
+          } lg:block`}
+        >
+          {description}
+        </p>
       </div>
     </div>
   )
