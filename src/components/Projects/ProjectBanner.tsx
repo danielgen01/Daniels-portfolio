@@ -4,10 +4,11 @@ import InvoiceScreen from "/Assets/projects/Invoice_screen.webp"
 import ECommerceScreen from "/Assets/projects/E-Commerce-Screen.webp"
 import rockpapergame from "/Assets/projects/rock_paper_scissors_lizzard_spock.png"
 import starbuckscreen from "/Assets/projects/starbucks_screen_2.webp"
+import easybankscreen from "/Assets/projects/easybank-preview.jpg"
 
 const ProjectBanner = () => {
   return (
-    <section className=" bg-[#03315A] flex flex-col gap-4 "id="projectbanner">
+    <section className=" bg-[#03315A] flex flex-col gap-4 " id="projectbanner">
       <div className="project-banner-content py-10 px-5 ">
         <div className="headline flex">
           <h1 className="text-white text-4xl font-bold lg:text-5xl">
@@ -79,6 +80,18 @@ const ProjectBanner = () => {
             githubLink={"https://github.com/danielgen01/starbucksclone"}
             liveViewLink={"https://clone-starbucks-daniel-gen.netlify.app/"}
             image={starbuckscreen}
+            reduxUsed={false}
+          />
+          <Project
+            title={"Easy bank landing page (static)"}
+            description={
+              "This is a static landing page for a conceptual banking app.It serves as a demonstration of my ability to create engaging, clean, and responsive design layouts for financial technology applications."
+            }
+            githubLink={"https://github.com/danielgen01/easybank-landing-page"}
+            liveViewLink={
+              "https://easy-bank-landing-page-by-daniel-g.netlify.app/"
+            }
+            image={easybankscreen}
             reduxUsed={false}
           />
         </div>
