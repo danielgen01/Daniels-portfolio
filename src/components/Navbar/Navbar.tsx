@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="h-24 shadow-md w-screen bg-white dark:bg-black px-4
+        className="h-24 shadow-md w-screen bg-white dark:bg-black px-4 fixed
       
        "
       >

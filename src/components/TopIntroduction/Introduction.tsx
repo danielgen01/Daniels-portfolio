@@ -5,7 +5,7 @@ import portrait from "/Assets/BewerbungsbildCartoon.webp"
 const Introduction = () => {
   return (
     <>
-    <section className=" py-5 lg:py-10 px-10 lg:px-7 xl:px-20 grid grid-cols-1 gap-4 lg:grid-cols-2 dark:bg-dark-bg min-h-[500px] lg:items-center " id="#introduction">
+    <section className=" py-32 lg:py-10 px-10 lg:px-7 xl:px-20 grid grid-cols-1 gap-4 lg:grid-cols-2 dark:bg-dark-bg min-h-[500px] lg:items-center " id="#introduction">
       <section className="flex flex-col gap-5 f">
         <div className="headline flex items-center">
           <h1 className="text-3xl font-bold whitespace-nowrap dark:text-white lg:text-7xl">
